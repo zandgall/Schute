@@ -1,0 +1,64 @@
+#pragma once
+#include "Tag.h"
+class LongArrayTag : virtual public Tag {
+public:
+	LongArrayTag();
+	LongArrayTag(std::string name, std::vector<long long> data) {
+		this->name = name;
+		this->data = data;
+	};
+	LongArrayTag(std::string name, long long data[]) {
+		this->data = std::vector<long long>();
+		this->name = name;
+		for (int i = 0, size = sizeof(data) / sizeof(long long); i < size; i++)
+			this->data.push_back(data[i]);
+	};
+	~LongArrayTag();
+	void load(unsigned char* bytes, int index);
+	int next(unsigned char* bytes, int index);
+	std::vector<long long> & getValue() {
+		return data;
+	}
+	std::vector<long long>& operator()() {
+		return data;
+	}
+	void operator()(std::vector<long long> b) {
+		data = b;
+	}
+	long long& operator[](size_t i) {
+		return data[i];
+	}
+	std::vector<unsigned char> getBytesValue();
+	std::vector<unsigned char> outBytes() {
+		std::vector<unsigned char> out = std::vector<unsigned char>();
+		out.push_back(0x0C);
+		int nS = name.size();
+		out.push_back((nS & 0x00'00'ff'00) >> 8);
+		out.push_back(nS & 0x00'00'00'ff);
+		for (int i = 0; i < nS; i++)
+			out.push_back((char)name.at(i));
+		out.push_back((data.size() & 0xff'00'00'00) >> 24);
+		out.push_back((data.size() & 0x00'ff'00'00) >> 16);
+		out.push_back((data.size() & 0x00'00'ff'00) >> 8);
+		out.push_back(data.size() & 0x00'00'00'ff);
+		std::vector<unsigned char> val = getBytesValue();
+		out.insert(out.end(), val.begin(), val.end());
+		return out;
+	};
+	const char* getName() {
+		return name.c_str();
+	}
+	void setName(std::string name) {
+		this->name = name;
+	}
+	unsigned int id() {
+		return 12;
+	}
+	Tag* clone() {
+		return new LongArrayTag(name, data);
+	}
+private:
+	std::string name;
+	std::vector<long long> data;
+};
+

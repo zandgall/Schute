@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Envelope.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\Neutron.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\MouseDetector.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\stb_image.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\ValueAnimation.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\VectorImage.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\SerialImage.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\ButtonQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\GraphQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\PageQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\ParagraphQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\ParticleQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\Quark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\SliderQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\NeutronFrame.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\NeutronModes.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\NeutronPasses.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\NeutronProcessor.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\NeutronWorld.h">
+      <Filter>Neutron\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Function\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Function\h\World</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnvelope.h">
+      <Filter>Function\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMakerEnvelope.h">
+      <Filter>Function\h</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteArrayTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\CompoundTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\DoubleTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileChooser.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FloatTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntArrayTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ListTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongArrayTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ShortTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\StringTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\Tag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\stb_image_write.h">
+      <Filter>Neutron\h\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Vine.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\DoubleArrayTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FloatArrayTag.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="NBTEnvelope.h">
+      <Filter>Function\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\TextboxQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron\TabQuark.h">
+      <Filter>Neutron\h\quark</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Function\h\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\Neutron.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\NeutronFrame.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\NeutronModes.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\NeutronPasses.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\NeutronProcessor.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\NeutronWorld.cpp">
+      <Filter>Neutron\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\glad.c">
+      <Filter>Neutron\h\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\MouseDetector.cpp">
+      <Filter>Neutron\cpp\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\SerialImage.cpp">
+      <Filter>Neutron\cpp\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\VectorImage.cpp">
+      <Filter>Neutron\cpp\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\ButtonQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\GraphQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\PageQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\ParagraphQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\ParticleQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\Quark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\SliderQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Function\cpp\World</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnvelope.cpp">
+      <Filter>Function\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMakerEnvelope.cpp">
+      <Filter>Function\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteArrayTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\CompoundTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\DoubleTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FloatTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntArrayTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ListTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongArrayTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ShortTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\StringTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Vine.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\DoubleArrayTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FloatArrayTag.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="NBTEnvelope.cpp">
+      <Filter>Function\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Function\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\TextboxQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron\TabQuark.cpp">
+      <Filter>Neutron\cpp\quark</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Function\cpp\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Neutron">
+      <UniqueIdentifier>{e34991d7-8583-4859-8a76-46d7cbe3c1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{1da24a1f-e6c3-4208-aced-10c0680e933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\cpp">
+      <UniqueIdentifier>{fb864b65-4003-41e5-a654-c6d99f534c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\h">
+      <UniqueIdentifier>{8249cb05-050c-4059-8ece-3155894ea6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\h\util">
+      <UniqueIdentifier>{7fab82ed-2172-41c9-b8a2-55d93747e8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\h\quark">
+      <UniqueIdentifier>{6ac6d481-3e12-46e6-b2c2-a95396da0e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\cpp\util">
+      <UniqueIdentifier>{9507f7ac-6b82-40c6-8c04-2157b80fe2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neutron\cpp\quark">
+      <UniqueIdentifier>{2fed6bc8-444d-48b1-b944-6ef8eb126373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\h">
+      <UniqueIdentifier>{2e7960cb-aa14-49b8-ae70-3559f4bdb833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\h\Entity">
+      <UniqueIdentifier>{a6b43c45-bac5-4396-9569-5cf08fca86bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\h\World">
+      <UniqueIdentifier>{d200a9aa-b275-4628-bb44-f340cd9de139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\cpp">
+      <UniqueIdentifier>{4005dd3b-08c3-4fc0-ab0e-52c8e84994c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\cpp\World">
+      <UniqueIdentifier>{7ab1be85-27f6-4b4e-bda5-9d1960d024db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\cpp\Entity">
+      <UniqueIdentifier>{194ec4f8-636d-41d0-997a-1180303e584b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIO">
+      <UniqueIdentifier>{d4184d01-baeb-4ca9-80fe-367442320f62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\vineHead.shader" />
+    <None Include="res\shaders\crop.shader" />
+  </ItemGroup>
+</Project>

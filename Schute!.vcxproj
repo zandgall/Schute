@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Envelope.h" />
+    <ClInclude Include="FileIO\ByteArrayTag.h" />
+    <ClInclude Include="FileIO\ByteTag.h" />
+    <ClInclude Include="FileIO\CompoundTag.h" />
+    <ClInclude Include="FileIO\DoubleTag.h" />
+    <ClInclude Include="FileIO\FileChooser.h" />
+    <ClInclude Include="FileIO\FloatTag.h" />
+    <ClInclude Include="FileIO\IntArrayTag.h" />
+    <ClInclude Include="FileIO\IntTag.h" />
+    <ClInclude Include="FileIO\ListTag.h" />
+    <ClInclude Include="FileIO\LongArrayTag.h" />
+    <ClInclude Include="FileIO\LongTag.h" />
+    <ClInclude Include="FileIO\ShortTag.h" />
+    <ClInclude Include="FileIO\StringTag.h" />
+    <ClInclude Include="FileIO\Tag.h" />
+    <ClInclude Include="FileIO\DoubleArrayTag.h" />
+    <ClInclude Include="GameEnvelope.h" />
+    <ClInclude Include="FileIO\FloatArrayTag.h" />
+    <ClInclude Include="LevelMakerEnvelope.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="NBTEnvelope.h" />
+    <ClInclude Include="Neutron\ButtonQuark.h" />
+    <ClInclude Include="Neutron\GraphQuark.h" />
+    <ClInclude Include="Neutron\MouseDetector.h" />
+    <ClInclude Include="Neutron\Neutron.h" />
+    <ClInclude Include="Neutron\NeutronFrame.h" />
+    <ClInclude Include="Neutron\NeutronModes.h" />
+    <ClInclude Include="Neutron\NeutronPasses.h" />
+    <ClInclude Include="Neutron\NeutronProcessor.h" />
+    <ClInclude Include="Neutron\NeutronWorld.h" />
+    <ClInclude Include="Neutron\PageQuark.h" />
+    <ClInclude Include="Neutron\ParagraphQuark.h" />
+    <ClInclude Include="Neutron\ParticleQuark.h" />
+    <ClInclude Include="Neutron\Quark.h" />
+    <ClInclude Include="Neutron\SerialImage.h" />
+    <ClInclude Include="Neutron\SliderQuark.h" />
+    <ClInclude Include="Neutron\stb_image.h" />
+    <ClInclude Include="Neutron\stb_image_write.h" />
+    <ClInclude Include="Neutron\TabQuark.h" />
+    <ClInclude Include="Neutron\TextboxQuark.h" />
+    <ClInclude Include="Neutron\ValueAnimation.h" />
+    <ClInclude Include="Neutron\VectorImage.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Vine.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="FileIO\ByteArrayTag.cpp" />
+    <ClCompile Include="FileIO\ByteTag.cpp" />
+    <ClCompile Include="FileIO\CompoundTag.cpp" />
+    <ClCompile Include="FileIO\DoubleTag.cpp" />
+    <ClCompile Include="FileIO\FloatTag.cpp" />
+    <ClCompile Include="FileIO\IntArrayTag.cpp" />
+    <ClCompile Include="FileIO\IntTag.cpp" />
+    <ClCompile Include="FileIO\ListTag.cpp" />
+    <ClCompile Include="FileIO\LongArrayTag.cpp" />
+    <ClCompile Include="FileIO\LongTag.cpp" />
+    <ClCompile Include="FileIO\ShortTag.cpp" />
+    <ClCompile Include="FileIO\StringTag.cpp" />
+    <ClCompile Include="FileIO\DoubleArrayTag.cpp" />
+    <ClCompile Include="GameEnvelope.cpp" />
+    <ClCompile Include="FileIO\FloatArrayTag.cpp" />
+    <ClCompile Include="LevelMakerEnvelope.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NBTEnvelope.cpp" />
+    <ClCompile Include="Neutron\ButtonQuark.cpp" />
+    <ClCompile Include="Neutron\glad.c" />
+    <ClCompile Include="Neutron\GraphQuark.cpp" />
+    <ClCompile Include="Neutron\MouseDetector.cpp" />
+    <ClCompile Include="Neutron\Neutron.cpp" />
+    <ClCompile Include="Neutron\NeutronFrame.cpp" />
+    <ClCompile Include="Neutron\NeutronModes.cpp" />
+    <ClCompile Include="Neutron\NeutronPasses.cpp" />
+    <ClCompile Include="Neutron\NeutronProcessor.cpp" />
+    <ClCompile Include="Neutron\NeutronWorld.cpp" />
+    <ClCompile Include="Neutron\PageQuark.cpp" />
+    <ClCompile Include="Neutron\ParagraphQuark.cpp" />
+    <ClCompile Include="Neutron\ParticleQuark.cpp" />
+    <ClCompile Include="Neutron\Quark.cpp" />
+    <ClCompile Include="Neutron\SerialImage.cpp" />
+    <ClCompile Include="Neutron\SliderQuark.cpp" />
+    <ClCompile Include="Neutron\TabQuark.cpp" />
+    <ClCompile Include="Neutron\TextboxQuark.cpp" />
+    <ClCompile Include="Neutron\VectorImage.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Vine.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\crop.shader" />
+    <None Include="res\shaders\vineHead.shader" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3E9EB2A4-4A40-448D-865F-29F5F327B234}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Neutron020</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;X:\c++\_lib\opengl19.32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>X:\c++\_lib\zlib-1.2.11\dll;X:\c++\_lib;X:\c++\_lib\opengl19.32\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;X:\c++\_lib\opengl19.32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>X:\c++\_lib;X:\c++\_lib\opengl19.32\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <EnableModules>true</EnableModules>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;freetype.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
